@@ -8,14 +8,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            VStack{
+                Text("Pokemon Sword/Shield Nuzlocke")
+                    .baselineOffset(8)
+                List{
+                    RegionView()
+                    RegionView()
+                }
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainContentView()
     }
 }

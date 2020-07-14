@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0715752924BD44AE00FFE7EF /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715752824BD44AE00FFE7EF /* Pokemon.swift */; };
+		0715753024BD54A800FFE7EF /* RegionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0715752F24BD54A800FFE7EF /* RegionServices.swift */; };
 		07163C6624BD30F300B3195A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C6524BD30F300B3195A /* AppDelegate.swift */; };
 		07163C6824BD30F300B3195A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C6724BD30F300B3195A /* SceneDelegate.swift */; };
 		07163C6B24BD30F300B3195A /* Pokemon_Sword_Shield_Nuzlocke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07163C6924BD30F300B3195A /* Pokemon_Sword_Shield_Nuzlocke.xcdatamodeld */; };
-		07163C6D24BD30F300B3195A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C6C24BD30F300B3195A /* ContentView.swift */; };
+		07163C6D24BD30F300B3195A /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C6C24BD30F300B3195A /* MainContentView.swift */; };
 		07163C6F24BD30F600B3195A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07163C6E24BD30F600B3195A /* Assets.xcassets */; };
 		07163C7224BD30F600B3195A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07163C7124BD30F600B3195A /* Preview Assets.xcassets */; };
 		07163C7524BD30F600B3195A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07163C7324BD30F600B3195A /* LaunchScreen.storyboard */; };
+		07163C7E24BD33F100B3195A /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C7D24BD33F000B3195A /* RegionView.swift */; };
+		07163C8224BD402200B3195A /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C8124BD402200B3195A /* Region.swift */; };
+		07163C8424BD406B00B3195A /* RegionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C8324BD406B00B3195A /* RegionType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0715752824BD44AE00FFE7EF /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		0715752F24BD54A800FFE7EF /* RegionServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionServices.swift; sourceTree = "<group>"; };
 		07163C6224BD30F300B3195A /* Pokemon Sword Shield Nuzlocke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Sword Shield Nuzlocke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07163C6524BD30F300B3195A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07163C6724BD30F300B3195A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		07163C6A24BD30F300B3195A /* Pokemon_Sword_Shield_Nuzlocke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Sword_Shield_Nuzlocke.xcdatamodel; sourceTree = "<group>"; };
-		07163C6C24BD30F300B3195A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07163C6C24BD30F300B3195A /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		07163C6E24BD30F600B3195A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07163C7124BD30F600B3195A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07163C7424BD30F600B3195A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07163C7624BD30F600B3195A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07163C7C24BD325E00B3195A /* Pokemon Sword Shield Nuzlocke.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pokemon Sword Shield Nuzlocke.entitlements"; sourceTree = "<group>"; };
+		07163C7D24BD33F000B3195A /* RegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
+		07163C8124BD402200B3195A /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		07163C8324BD406B00B3195A /* RegionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0715752E24BD548900FFE7EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0715752F24BD54A800FFE7EF /* RegionServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		07163C5924BD30F300B3195A = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +77,12 @@
 		07163C6424BD30F300B3195A /* Pokemon Sword Shield Nuzlocke */ = {
 			isa = PBXGroup;
 			children = (
+				07163C8024BD401000B3195A /* Model */,
+				07163C7F24BD362200B3195A /* Views */,
+				0715752E24BD548900FFE7EF /* Services */,
+				07163C7C24BD325E00B3195A /* Pokemon Sword Shield Nuzlocke.entitlements */,
 				07163C6524BD30F300B3195A /* AppDelegate.swift */,
 				07163C6724BD30F300B3195A /* SceneDelegate.swift */,
-				07163C6C24BD30F300B3195A /* ContentView.swift */,
 				07163C6E24BD30F600B3195A /* Assets.xcassets */,
 				07163C7324BD30F600B3195A /* LaunchScreen.storyboard */,
 				07163C7624BD30F600B3195A /* Info.plist */,
@@ -76,6 +98,25 @@
 				07163C7124BD30F600B3195A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07163C7F24BD362200B3195A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07163C6C24BD30F300B3195A /* MainContentView.swift */,
+				07163C7D24BD33F000B3195A /* RegionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07163C8024BD401000B3195A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07163C8124BD402200B3195A /* Region.swift */,
+				07163C8324BD406B00B3195A /* RegionType.swift */,
+				0715752824BD44AE00FFE7EF /* Pokemon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +191,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				07163C6624BD30F300B3195A /* AppDelegate.swift in Sources */,
+				0715752924BD44AE00FFE7EF /* Pokemon.swift in Sources */,
 				07163C6824BD30F300B3195A /* SceneDelegate.swift in Sources */,
-				07163C6D24BD30F300B3195A /* ContentView.swift in Sources */,
+				0715753024BD54A800FFE7EF /* RegionServices.swift in Sources */,
+				07163C7E24BD33F100B3195A /* RegionView.swift in Sources */,
+				07163C8424BD406B00B3195A /* RegionType.swift in Sources */,
+				07163C8224BD402200B3195A /* Region.swift in Sources */,
+				07163C6D24BD30F300B3195A /* MainContentView.swift in Sources */,
 				07163C6B24BD30F300B3195A /* Pokemon_Sword_Shield_Nuzlocke.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pokemon Sword Shield Nuzlocke/Pokemon Sword Shield Nuzlocke.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon Sword Shield Nuzlocke/Preview Content\"";
 				DEVELOPMENT_TEAM = QYGYSPJFH9;
@@ -299,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gustavovbs98.Pokemon-Sword-Shield-Nuzlocke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pokemon Sword Shield Nuzlocke/Pokemon Sword Shield Nuzlocke.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pokemon Sword Shield Nuzlocke/Preview Content\"";
 				DEVELOPMENT_TEAM = QYGYSPJFH9;
@@ -319,6 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gustavovbs98.Pokemon-Sword-Shield-Nuzlocke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
