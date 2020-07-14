@@ -13,7 +13,6 @@ struct MainContentView: View {
     static var updating : Int = 0
     
     @State var regions : [Region]?
-    //@State var regionsUpdated = false
     
     var body: some View {
         NavigationView{
@@ -23,14 +22,11 @@ struct MainContentView: View {
                 List(regions ?? []){ region in
                     RegionView(region: region, updating: Binding<Int>(get: {MainContentView.updating}, set: {newValue in MainContentView.updating = newValue}))
                 }
-//                    RegionView(region: Region(name: "a", type : .route), updating: Binding<Int>(get: {MainContentView.updating}, set: {newValue in MainContentView.updating = newValue}))
-//                    RegionView(region: Region(name: "a", type : .route), updating: Binding<Int>(get: {MainContentView.updating}, set: {newValue in MainContentView.updating = newValue}))
 //                }
             }
         }.onAppear{
             RegionServices().getAllRegions { (regions) in
                 self.regions = regions
-                //self.regionsUpdated = true
             }
         }
     }

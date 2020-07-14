@@ -11,7 +11,7 @@ import Foundation
 class RegionServices{
     
     
-    func getAllRegions(_ completion: ([Region]) -> Void){
+    func getAllRegions(_ completion: ([Region]?) -> Void){
         var regions : [Region] = []
         
         for i in 1...10{
